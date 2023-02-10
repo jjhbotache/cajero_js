@@ -1,0 +1,68 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  background: linear-gradient(60deg, #e4a73e 0%, #db900d 100%);
+  min-height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  background-color: black;
+  border-radius: 2em;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 0px 0px 1em 1em rgba(0, 0, 0, 0.2);
+  color: aliceblue;
+  padding: 2%;
+  width: 100vh;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+li{
+  text-align: justify;
+  font-size: 0.6em;
+}
+.screen{
+  background-color: dimgray;
+  display: flex;
+  border-radius: 0.7em;
+  width: 100%;
+  height: 10em;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  margin-bottom: 0.6em;
+  margin-top: 0.6em;
+}
+#screen-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.numbers-pad{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.pad{
+  border-radius: 0.2em;
+  flex-basis: 28%;
+  height: 6vh;
+  background-color: coral;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pad:hover{
+  transform: scale(1.1);
+  box-shadow: black 0px 0px 5px 2px;
+  transition: all 0.2s ease-out;
+}
